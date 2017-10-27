@@ -1,0 +1,230 @@
+/*Jessica Alcaraz Oct 27/2017 */
+
+body{
+    background: #fff url(./img/flo.png);
+    background-size: 100% auto;
+    font-family: 'Over the Rainbow', cursive;
+    text-align: center;
+    
+}
+/*parte 1*/
+h1{
+    font-family: 'Frijole', cursive;
+    color: #6B0032;
+    font-size: 55px;
+    margin: 100px 0px;
+  
+}
+.pe{
+    font-family: 'Over the Rainbow', cursive;
+    color: #6B0032;
+    font-size: 25px;
+    margin: 100px 80px;
+}
+
+nav{
+    background: #fff;
+    border-radius: 40px;
+    margin: 120px 200px 100px 229px;
+    width: 1000px;
+    text-align: center;
+    border: 1px solid;
+    border-color: #6B0032;
+    
+}
+nav ul{
+    font-size: 0;
+}
+nav li{
+    display: inline-block;
+    width: 15%;
+    font-size:20px;
+}
+nav li a{
+    color:  #6B0032;
+    text-decoration: none;
+}
+nav li a:hover span{
+    background-color:rgb(255,255,237);opacity:.10;
+}
+
+/*primer recuadro*/
+.wrapper{
+    width: 80%;
+    margin: 250px 150px 0px;
+    background: #6B0032;
+    border-radius: 50px;
+    color:#fff;
+}
+.jess{
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+    bottom: 35px;
+}
+.pepe{
+    width: 670px;
+    margin: 0px 70px;
+    text-align: center;
+    
+}
+.me{
+    width: 300px;
+    position: relative;
+    left: 25%;
+    bottom: 490px;
+    border-radius: 150px;
+}
+/*bottom arriba*/
+#group{
+    background:#6B0032;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 5px;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#group:hover{
+    background: #fff;
+    color:#6B0032;
+}
+/*parte 3*/
+.pic{
+    border-radius: 100px;
+    width: 100px;
+    position: relative;
+    margin: 100px 50px 10px;
+}
+.pic:hover{
+    transform: scale(1.5);
+}
+.letras{
+    font-size: 25px;
+    color: #6B0032;
+    width: 50px;
+    margin: 0px 70px 200px;
+}
+.letras:hover{
+    transform: scale(1.5);
+}
+.pic_pic{
+    display:flex;    
+}
+/*parte 4*/
+.titulo2{
+    font-size: 40px;
+    margin: 100px 0px;
+    color: #6B0032;
+}
+video{
+    margin: 0px 50px 100px;
+}
+ /*parte 5*/
+.titulo{
+    font-size: 40px;
+    margin: 100px 0px;
+    color: #6B0032;
+}
+.for_video{
+    font-size: 25px;
+    color: #6B0032;
+    margin: 70px 0px;
+}
+video{
+    border-radius: 20px;
+}
+/*parte 6*/
+
+form {
+     padding:25px;
+     cursor:pointer;
+     display:block;
+     width: 500px;
+     height: 500px;
+     margin: 0 auto;
+     text-align:center;
+     background:#6B0032;
+     color: #fff;
+     border-radius: 350px;
+} 
+
+label {
+     font-size: 35px;
+}
+
+ input{
+     width: 400px;
+     height: 30px;
+     border-radius: 50px;
+}
+.boton{
+    font-size: 15px;
+    color: #6B0032;
+    font-family: 'Over the Rainbow', cursive;
+    width: 60px;
+    border-radius: 50px;
+    background: #fff;
+}
+
+ textarea{
+     width: 395px;
+     height: 100px;
+     border-radius: 10px;
+}
+/*iconos*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+    border-radius: 10px;
+    
+}
+
+.social ul{
+    list-style: none;
+}
+
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 20px 20px;
+    text-decoration: none;
+    -webkit-transition:al 500ms ease;
+    -o-transition:all 500ms ease;
+    transition: all 500ms ease;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.social ul li .icon-facebook2{
+    background: #3b5998;
+}
+.social ul li .icon-skype{
+    background: #00abf0;
+}
+.social ul li .icon-instagram{
+    background: #cd486b;
+}
+.social ul li .icon-github{
+    background: #000;
+}
+
+.social ul li a:hover{
+    padding: 10px 20px;
+    background: #6B0032;
+    
+}
